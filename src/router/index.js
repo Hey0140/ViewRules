@@ -6,8 +6,8 @@ import Developing from '../components/Developing.vue'
 
 
 const routes = [
-    { path: '/', redirect: '/rules' },
-    { path: '/rules', name: 'RulesCheck', component: RulesCheck },
+    // { path: '/', redirect: '/rules' },
+    { path: '/', name: 'RulesCheck', component: RulesCheck },
     { path: '/evidence', name: 'EvidenceGuidelines', component: EvidenceGuidelines },
     { path: '/ocr', name: 'OcrUpload', component: OcrUpload },
     { path: '/developing', name: 'Develop', component: Developing },

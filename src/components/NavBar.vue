@@ -1,8 +1,8 @@
 <template>
 <header class="nav">
-<div class="brand" @click="$router.push('/rules')">학사 도우미</div>
+<div class="brand" @click="$router.push('/')">학사 도우미</div>
 <nav>
-<RouterLink to="/rules" class="link" :class="{active: is('/rules')}">학사규정 확인</RouterLink>
+<RouterLink to="/" class="link" :class="{active: is('//')}">학사규정 확인</RouterLink>
 <RouterLink to="/evidence" class="link" :class="{active: is('/evidence')}">증빙서류 가이드</RouterLink>
 <!-- <RouterLink to="/ocr" class="link" :class="{active: is('/ocr')}">③ OCR 업로드 - 확인서 생성</RouterLink> -->
 <RouterLink to="/developing" class="link" :class="{active: is('/developing')}">개발중</RouterLink>
