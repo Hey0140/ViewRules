@@ -4,7 +4,7 @@
 <nav>
 <RouterLink to="/" class="link" :class="{active: is('//')}">학사규정 확인</RouterLink>
 <RouterLink to="/evidence" class="link" :class="{active: is('/evidence')}">증빙서류 가이드</RouterLink>
-<!-- <RouterLink to="/ocr" class="link" :class="{active: is('/ocr')}">③ OCR 업로드 - 확인서 생성</RouterLink> -->
+<RouterLink to="/ocr" class="link" :class="{active: is('/ocr')}">③ OCR 업로드 - 확인서 생성</RouterLink>
 <RouterLink to="/developing" class="link" :class="{active: is('/developing')}">개발중</RouterLink>
 </nav>
 </header>

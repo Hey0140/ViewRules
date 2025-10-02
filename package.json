@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "dompurify": "^3.2.6",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
     "markdown-it": "^14.1.0",
+    "openai": "^5.21.0",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
